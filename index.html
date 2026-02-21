@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#FFF0F5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>宝宝儿歌</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Update banner (hidden by default) -->
+  <div id="update-banner" class="update-banner hidden">
+    <span>发现新内容</span>
+    <button id="update-btn">点击更新</button>
+  </div>
+
+  <!-- Main scroll container -->
+  <div id="container" class="container">
+    <!-- Song cards rendered by JS -->
+  </div>
+
+  <!-- Progress dots -->
+  <div id="dots" class="dots"></div>
+
+  <script src="songs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
